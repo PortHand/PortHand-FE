@@ -1,0 +1,92 @@
+.handelWraper {
+  width: 80%;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+.worktabel input {
+  width: 100%;
+  padding: 7px 20px;
+  /* margin: 10px 0; */
+  background: transparent;
+  border: 1px solid #64d0ff9c;
+  color: white;
+  border-radius: 5px;
+  resize: none;
+}
+.deleteaction {
+  background-color: #ff0000db;
+}
+.edit {
+  background-color: rgb(21, 91, 160);
+}
+.saveaction {
+  background-color: #31cb4e;
+}
+.actions {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+.workTabelpreview {
+  margin-top: 3rem;
+}
+.skillsoption {
+  color: black;
+}
+.banner {
+  display: flex;
+  width: 56px;
+  margin: 0 auto;
+}
+.banner img {
+  width: 100%;
+  object-fit: cover;
+}
+.workTabelpreview a {
+  color: rgba(240, 248, 255, 0.878);
+}
+.workTabelpreview {
+  padding-bottom: 2rem;
+}
+.workcontent {
+  max-height: 200px;
+  overflow-y: scroll;
+}
+.backbutton {
+  padding: 7px 2.7vw;
+  background-color: #64d0ff;
+  color: black;
+  display: block;
+  margin: 20px auto;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 250ms;
+}
+.backbutton:hover {
+  transition: 250ms;
+  background-color: #ef8616;
+  color: white;
+}
+.logout {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.logout button {
+  cursor: pointer;
+  font-size: 15px;
+  color: #ffffffc7;
+  padding: 10px;
+  transition: 250ms;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  font-weight: 400;
+  background: transparent;
+  border: none;
+}
+.logout button:hover {
+  color: #64d0ff;
+}

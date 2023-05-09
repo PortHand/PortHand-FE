@@ -1,0 +1,9 @@
+.myworkContainer {
+}
+.headerbox {
+  background: linear-gradient(#00504a, black);
+}
+.works {
+  background: linear-gradient(black, #00504a);
+  overflow: hidden;
+}

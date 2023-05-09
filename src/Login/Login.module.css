@@ -1,0 +1,47 @@
+.backbutton {
+  padding: 7px 2.7vw;
+  background-color: #64d0ff;
+  color: black;
+  display: block;
+  margin: 20px auto;
+  border-radius: 3px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 250ms;
+}
+.backbutton:hover {
+  transition: 250ms;
+  background-color: #ef8616;
+  color: white;
+}
+.loginform {
+  padding: 20px 10px;
+}
+.loginContainer {
+  min-height: 100vh;
+}
+
+.loginWraper {
+  display: flex;
+  gap: 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 3rem;
+
+  background: #00000094;
+  padding: 2.3vw;
+  border-radius: 2vw;
+  width: 48%;
+  transition: all 0.5s ease;
+}
+.loginWraper:hover {
+  background: #00000060;
+}
+
+@media only screen and (max-width: 680px) {
+  .loginWraper {
+    width: 90%;
+  }
+}
