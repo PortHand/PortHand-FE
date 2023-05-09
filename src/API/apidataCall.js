@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const domain = "http://localhost:8000/api";
+const domain = process.env.REACT_APP_DOMAIN;
 
 const getHeaders = (type) => {
   // const token = localStorage.getItem('access_token')

@@ -2,10 +2,12 @@ import React, { useEffect, useState } from "react";
 import { BsGithub } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
 import { BsGlobe } from "react-icons/bs";
+import { BsCapslockFill } from "react-icons/bs";
 import CV from "./assect/CV.pdf";
 import { getaboutMe } from "./API/apidataCall";
 const Component = (prop) => {
   const domain = process.env.REACT_APP_DOMAINX;
+  const hand = process.env.REACT_APP_WORK_PATH;
 
   const [data, setcv] = useState();
   useEffect(() => {
@@ -56,8 +58,9 @@ const Component = (prop) => {
           >
             <BsGlobe className="right_social_icons" />
           </a>
-          {/* <a href=""><SiCodechef/></a>
-                <a href=""><SiLeetcode/></a> */}
+          <a href={hand} target="_blank" rel="noreferrer">
+            <BsCapslockFill className="right_social_icons" />
+          </a>
         </div>
         <div className="box">
           <div className="text">

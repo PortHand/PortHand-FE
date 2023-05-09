@@ -15,6 +15,7 @@ import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import useAuthCtx from "../auth/authContext";
 import { TbLogout } from "react-icons/tb";
+import { FaUserTie } from "react-icons/fa";
 import { logoutadmin } from "../API/authApi";
 const Handel = () => {
   const navigate = useNavigate();
@@ -197,8 +198,11 @@ const Handel = () => {
         <div>
           <div className={styles.handelContainer}>
             <div className={styles.logout}>
+            <Link to="/adminpanelaboutme">
+              <FaUserTie className="right_social_icons" />
+            </Link>
               <button onClick={handelLogout}>
-                logout <TbLogout />
+                logout <TbLogout className="right_social_icons" />
               </button>
             </div>
             <div className={styles.handelWraper}>

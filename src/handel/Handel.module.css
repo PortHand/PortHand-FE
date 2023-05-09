@@ -71,6 +71,13 @@
 .logout {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+  right: 0;
+}
+.logout a {
+  color: #ffffffc7;
+  transition: 250ms;
 }
 
 .logout button {
@@ -87,6 +94,7 @@
   background: transparent;
   border: none;
 }
-.logout button:hover {
+.logout button:hover,
+.logout a:hover {
   color: #64d0ff;
 }
