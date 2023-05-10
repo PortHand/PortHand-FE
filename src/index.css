@@ -499,6 +499,11 @@ nav {
   margin: 18px 0;
   font-size: 0.76vw;
   text-align: center;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
 }
 
 .btn1 {
