@@ -41,17 +41,15 @@ const Mywork = () => {
             <div id="service_product">
               <div id="products">
                 {portdata?.map((val, ind) => {
-                  if (ind < 6)
-                    return (
-                      <Card
-                        key={ind}
-                        pro={val.banner}
-                        info={val.desc}
-                        skill={val.skills}
-                        link={val.link}
-                      />
-                    );
-                  else return;
+                  return (
+                    <Card
+                      key={ind}
+                      pro={val.banner}
+                      info={val.desc}
+                      skill={val.skills}
+                      link={val.link}
+                    />
+                  );
                 })}
               </div>
             </div>
