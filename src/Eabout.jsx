@@ -148,7 +148,7 @@ const Eabout = ({ ref2 }) => {
                   <li>
                     <BsPatchCheckFill className="skill_verify_icons" />
                     <small>
-                      Object Oriented Programing<p>Intermediate</p>
+                      Object Oriented Programming<p>Intermediate</p>
                     </small>
                   </li>
                 </div>
@@ -189,7 +189,7 @@ const Eabout = ({ ref2 }) => {
                   <li>
                     <BsPatchCheckFill className="skill_verify_icons" />
                     <small>
-                      Object Oriented Programing<p>Intermediate</p>
+                      competitive programming<p>Intermediate</p>
                     </small>
                   </li>
                 </div>

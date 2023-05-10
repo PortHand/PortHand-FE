@@ -27,7 +27,7 @@ const Services = ({ ref4 }) => {
           </div>
           <div className="desc">
             <p>
-              As a desiginer i have been working for an year in this sector, and
+              As a developer i have been working for an year in this sector, and
               i have completed lot's of projects.
             </p>
           </div>
