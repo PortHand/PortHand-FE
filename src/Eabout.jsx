@@ -33,7 +33,7 @@ const Eabout = ({ ref2 }) => {
           <div id="about">
             <div className="my_profile">
               <div className="me">
-                <img src={data ? `${domain}${data?.profile}` : me} alt="" />
+                <img src={data ? `${data?.profile}` : me} alt="" />
               </div>
             </div>
             <div className="about_left">

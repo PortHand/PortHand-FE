@@ -42,7 +42,7 @@ const Card = (prop) => {
     <>
       <div className="boxes">
         <div className="p_img">
-          <img src={`${domain}${prop.pro}`} alt="product_one" />
+          <img src={`${prop.pro}`} alt="product_one" />
         </div>
         <div className="hov">
           <div className="show">

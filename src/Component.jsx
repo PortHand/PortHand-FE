@@ -23,7 +23,7 @@ const Component = (prop) => {
       <div id="home">
         <div className="cv">
           <a
-            href={`${domain}${data?.resume}`}
+            href={`${data?.resume}`}
             target="_blank"
             download
             className="btn1 download"

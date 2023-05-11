@@ -198,9 +198,9 @@ const Handel = () => {
         <div>
           <div className={styles.handelContainer}>
             <div className={styles.logout}>
-            <Link to="/adminpanelaboutme">
-              <FaUserTie className="right_social_icons" />
-            </Link>
+              <Link to="/adminpanelaboutme">
+                <FaUserTie className="right_social_icons" />
+              </Link>
               <button onClick={handelLogout}>
                 logout <TbLogout className="right_social_icons" />
               </button>
@@ -323,7 +323,7 @@ const Handel = () => {
                         <tr>
                           <td>
                             <div className={styles.banner}>
-                              <img src={`${domain}${val?.banner}`} />
+                              <img src={`${val?.banner}`} />
                             </div>
                           </td>
                           <td style={{ textTransform: "capitalize" }}>

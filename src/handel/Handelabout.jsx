@@ -213,7 +213,7 @@ const Handelabout = () => {
                       <tr>
                         <td>
                           <div className={styles.banner}>
-                            <img src={`${domain}${aboutme[0]?.profile}`} />
+                            <img src={`${aboutme[0]?.profile}`} />
                           </div>
                         </td>
                         <td>
@@ -221,7 +221,7 @@ const Handelabout = () => {
                         </td>
                         <td>
                           <a
-                            href={`${domain}${aboutme[0]?.resume}`}
+                            href={`${aboutme[0]?.resume}`}
                             target="_blank"
                             download
                           >
