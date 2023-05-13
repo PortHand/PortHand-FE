@@ -3,7 +3,7 @@ import { BsGithub } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
 import { BsGlobe } from "react-icons/bs";
 import { BsCapslockFill } from "react-icons/bs";
-import CV from "./assect/CV.pdf";
+import CV from "./assect/Prince_raj-resume.pdf";
 import { getaboutMe } from "./API/apidataCall";
 const Component = (prop) => {
   const domain = process.env.REACT_APP_DOMAINX;
@@ -23,7 +23,7 @@ const Component = (prop) => {
       <div id="home">
         <div className="cv">
           <a
-            href={`${data?.resume}`}
+            href={data?.resume ? CV : data?.resume}
             target="_blank"
             download
             className="btn1 download"
