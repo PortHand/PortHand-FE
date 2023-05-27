@@ -68,10 +68,7 @@ input:focus {
 .redirect a {
   color: var(--para-color);
 }
-.redirect .desc::after {
-  content: ">>>>";
-  /* background-color: var(--para-color); */
-}
+
 .actionButton {
   margin: 0;
   font-size: 24px;

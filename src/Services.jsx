@@ -42,7 +42,11 @@ const Services = ({ ref4 }) => {
                     pro={val.banner}
                     info={val.desc}
                     skill={val.skills}
-                    link={val.link}
+                    link={
+                      val?.preview_link !== "NA"
+                        ? val?.preview_link
+                        : val?.deploy_link
+                    }
                   />
                 );
               else return;
