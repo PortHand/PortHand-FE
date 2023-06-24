@@ -18,12 +18,13 @@ const Component = (prop) => {
       }
     });
   }, []);
+  console.log(data?.resume, "data check");
   return (
     <>
       <div id="home">
         <div className="cv">
           <a
-            href={data?.resume ? CV : data?.resume}
+            href={data?.resume ? data?.resume : CV}
             target="_blank"
             download
             className="btn1 download"
@@ -38,14 +39,14 @@ const Component = (prop) => {
         </div>
         <div className="right">
           <a
-            href="https://github.com/Prince8032"
+            href="https://github.com/prince0raj"
             target="_blank"
             rel="noreferrer"
           >
             <BsGithub className="right_social_icons" />
           </a>
           <a
-            href="www.linkedin.com/in/prince-raj-597b8b214"
+            href="https://www.linkedin.com/in/prince-raj-597b8b214/"
             target="_blank"
             rel="noreferrer"
           >
@@ -70,7 +71,7 @@ const Component = (prop) => {
               <span>{prop.ttwo}</span>
             </h1>
             <p style={{ fontFamily: "serif" }}>
-              {data ? data?.tag : "MERNSTACK Web developer"}
+              {data?.tag ? data?.tag : "MERNSTACK Web developer"}
             </p>
             <p>
               I create websites and digital goods for start-up companies,

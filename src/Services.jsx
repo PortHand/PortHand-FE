@@ -15,7 +15,7 @@ const Services = ({ ref4 }) => {
       }
     });
   }, []);
-  console.log(portdata);
+  // console.log(portdata);
 
   return (
     <>

@@ -37,7 +37,7 @@ const Card = (prop) => {
     rx: <SiRedux />,
     ra: <TbApiApp />,
   };
-  console.log(prop.skill, "xhexk");
+  //console.log(prop.skill, "xhexk");
   return (
     <>
       <div className="boxes">
