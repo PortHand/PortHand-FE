@@ -24,7 +24,11 @@ const Component = (prop) => {
       <div id="home">
         <div className="cv">
           <a
-            href={data?.resume ? data?.resume : CV}
+            href={
+              data?.resume
+                ? data?.resume
+                : `https://drive.google.com/file/d/1PdflOmn0bX3TbYJ_IrCNpZRQV1XNuuyE/view?usp=sharing`
+            }
             target="_blank"
             download
             className="btn1 download"
