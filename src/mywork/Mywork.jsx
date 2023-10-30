@@ -46,6 +46,9 @@ const Mywork = () => {
                       key={ind}
                       pro={val.banner}
                       info={val.desc}
+                      text_link={
+                        val?.preview_link !== "NA" ? "Preview" : "Git-Code"
+                      }
                       skill={val.skills}
                       link={
                         val?.preview_link !== "NA"

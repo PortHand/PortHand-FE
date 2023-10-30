@@ -63,7 +63,7 @@ const Card = (prop) => {
             </div>
             <p>{prop.info}</p>
             <a href={prop.link} target="_blank" rel="noreferrer">
-              <button>preview</button>
+              <button>{prop.text_link}</button>
             </a>
           </div>
         </div>

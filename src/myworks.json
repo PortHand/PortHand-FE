@@ -1,0 +1,651 @@
+[{
+  "_id": {
+    "$oid": "6454bfcf9a72b46d649bf775"
+  },
+  "tittle": "webkox",
+  "banner": "http://res.cloudinary.com/dqsqjjlti/image/upload/v1683784204/ihkhpsodx1zwwas3qmia.png",
+  "preview_link": "NA",
+  "deploy_link": "https://github.com/prince0raj/Responsive_landpage",
+  "desc": "Business-website contain infomation about there business.",
+  "skills": [
+    {
+      "value": "hc",
+      "label": "HTML/CSS",
+      "_id": {
+        "$oid": "6454e7210053d8a0b25bb682"
+      }
+    },
+    {
+      "value": "fb",
+      "label": "Flex-Box",
+      "_id": {
+        "$oid": "6454e7210053d8a0b25bb683"
+      }
+    },
+    {
+      "value": "fig",
+      "label": "Figma",
+      "_id": {
+        "$oid": "6454e7210053d8a0b25bb684"
+      }
+    },
+    {
+      "value": "res",
+      "label": "Responsive",
+      "_id": {
+        "$oid": "6454e7210053d8a0b25bb685"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1683275727127"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1683784203268"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6454c0c29a72b46d649bf785"
+  },
+  "tittle": "HtmlBasket-pricing",
+  "banner": "http://res.cloudinary.com/dqsqjjlti/image/upload/v1683784171/ije3r2vel2vqzgctihq3.png",
+  "preview_link": "https://www.htmlbasket.com/wordpress-development-services.html",
+  "deploy_link": "NA",
+  "desc": "Pricing E-commerce Business-website contain infomation about there business.",
+  "skills": [
+    {
+      "value": "an",
+      "label": "Animation",
+      "_id": {
+        "$oid": "6454c0c29a72b46d649bf786"
+      }
+    },
+    {
+      "value": "hc3",
+      "label": "HTML/CSS3",
+      "_id": {
+        "$oid": "6454c0c29a72b46d649bf787"
+      }
+    },
+    {
+      "value": "b",
+      "label": "Bootstrap",
+      "_id": {
+        "$oid": "6454c0c29a72b46d649bf788"
+      }
+    },
+    {
+      "value": "js",
+      "label": "Javascript",
+      "_id": {
+        "$oid": "6454c0c29a72b46d649bf789"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1683275970912"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1683784169278"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6454c11f9a72b46d649bf794"
+  },
+  "tittle": "ShopMe",
+  "banner": "http://res.cloudinary.com/dqsqjjlti/image/upload/v1683784131/rlu6iidxulaawzss2zii.png",
+  "preview_link": "NA",
+  "deploy_link": "https://github.com/prince0raj/model-overlay-website",
+  "desc": "E-commerce-website for shopping cloths i.e (Myntra).",
+  "skills": [
+    {
+      "value": "hc3",
+      "label": "HTML/CSS3",
+      "_id": {
+        "$oid": "6454c11f9a72b46d649bf795"
+      }
+    },
+    {
+      "value": "js",
+      "label": "Javascript",
+      "_id": {
+        "$oid": "6454c11f9a72b46d649bf796"
+      }
+    },
+    {
+      "value": "res",
+      "label": "Responsive",
+      "_id": {
+        "$oid": "6454c11f9a72b46d649bf797"
+      }
+    },
+    {
+      "value": "fb",
+      "label": "Flex-Box",
+      "_id": {
+        "$oid": "6454c11f9a72b46d649bf798"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1683276063120"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1683784129500"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6454c18a9a72b46d649bf7a7"
+  },
+  "tittle": "HtmlBasket-portfolio",
+  "banner": "http://res.cloudinary.com/dqsqjjlti/image/upload/v1683784097/b7ocmybbwuhaogjsqzv1.png",
+  "preview_link": "https://www.htmlbasket.com/portfolio.html",
+  "deploy_link": "NA",
+  "desc": "Business-portfolio-website contain records about all there past work's till yet.",
+  "skills": [
+    {
+      "value": "hc3",
+      "label": "HTML/CSS3",
+      "_id": {
+        "$oid": "6454c18a9a72b46d649bf7a8"
+      }
+    },
+    {
+      "value": "js",
+      "label": "Javascript",
+      "_id": {
+        "$oid": "6454c18a9a72b46d649bf7a9"
+      }
+    },
+    {
+      "value": "an",
+      "label": "Animation",
+      "_id": {
+        "$oid": "6454c18a9a72b46d649bf7aa"
+      }
+    },
+    {
+      "value": "res",
+      "label": "Responsive",
+      "_id": {
+        "$oid": "6454c18a9a72b46d649bf7ab"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1683276170385"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1683784095733"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6454c1d09a72b46d649bf7be"
+  },
+  "tittle": "Portfolio-client",
+  "banner": "http://res.cloudinary.com/dqsqjjlti/image/upload/v1683784058/im7alrfodwu9qhr4wwef.png",
+  "preview_link": "NA",
+  "deploy_link": "https://github.com/prince0raj/portfolio_client_website",
+  "desc": "Portfolio-website contain info about skill, experience, contact, etc.",
+  "skills": [
+    {
+      "value": "hc",
+      "label": "HTML/CSS",
+      "_id": {
+        "$oid": "6454c1d09a72b46d649bf7bf"
+      }
+    },
+    {
+      "value": "js",
+      "label": "Javascript",
+      "_id": {
+        "$oid": "6454c1d09a72b46d649bf7c0"
+      }
+    },
+    {
+      "value": "res",
+      "label": "Responsive",
+      "_id": {
+        "$oid": "6454c1d09a72b46d649bf7c1"
+      }
+    },
+    {
+      "value": "fb",
+      "label": "Flex-Box",
+      "_id": {
+        "$oid": "6454c1d09a72b46d649bf7c2"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1683276240164"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1683784057005"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6454c22f9a72b46d649bf7d9"
+  },
+  "tittle": "HtmlBasket",
+  "banner": "http://res.cloudinary.com/dqsqjjlti/image/upload/v1683784016/d76scqudzvsd0lcfxuey.png",
+  "preview_link": "https://www.htmlbasket.com/",
+  "deploy_link": "NA",
+  "desc": "shopping-website anyone who want to create there own web/app.",
+  "skills": [
+    {
+      "value": "hc3",
+      "label": "HTML/CSS3",
+      "_id": {
+        "$oid": "6454c22f9a72b46d649bf7da"
+      }
+    },
+    {
+      "value": "js",
+      "label": "Javascript",
+      "_id": {
+        "$oid": "6454c22f9a72b46d649bf7db"
+      }
+    },
+    {
+      "value": "an",
+      "label": "Animation",
+      "_id": {
+        "$oid": "6454c22f9a72b46d649bf7dc"
+      }
+    },
+    {
+      "value": "b",
+      "label": "Bootstrap",
+      "_id": {
+        "$oid": "6454c22f9a72b46d649bf7dd"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1683276335440"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1683784015282"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "645b52fd3a5d4254815c8ab8"
+  },
+  "tittle": "Chat-Room",
+  "banner": "http://res.cloudinary.com/dqsqjjlti/image/upload/v1683782647/kygjvsmy7xbhrl2f5cbx.png",
+  "preview_link": "NA",
+  "deploy_link": "https://github.com/prince0raj/chat-room",
+  "desc": "This website enables users to engage in text-based conversations on specific topics or interests, serving various purposes such as socializing, networking, gaming, and learning.",
+  "skills": [
+    {
+      "value": "b",
+      "label": "Bootstrap",
+      "_id": {
+        "$oid": "645b52fd3a5d4254815c8ab9"
+      }
+    },
+    {
+      "value": "re",
+      "label": "React",
+      "_id": {
+        "$oid": "645b52fd3a5d4254815c8aba"
+      }
+    },
+    {
+      "value": "ex",
+      "label": "Express",
+      "_id": {
+        "$oid": "645b52fd3a5d4254815c8abb"
+      }
+    },
+    {
+      "value": "njs",
+      "label": "NodeJs",
+      "_id": {
+        "$oid": "645b52fd3a5d4254815c8abc"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1683706621401"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1683782645455"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "645c7f52cbdfa5c2722fb3ff"
+  },
+  "tittle": "StriverPost",
+  "banner": "http://res.cloudinary.com/dqsqjjlti/image/upload/v1683783753/hmhrfvxmblqx2mjwjbdu.png",
+  "preview_link": "https://striverspost.co.in/",
+  "deploy_link": "NA",
+  "desc": "It is a Tech job update network app that includes all the latest updates about jobs, internships, and hackathons",
+  "skills": [
+    {
+      "value": "re",
+      "label": "React",
+      "_id": {
+        "$oid": "645c7f52cbdfa5c2722fb400"
+      }
+    },
+    {
+      "value": "rx",
+      "label": "Redux",
+      "_id": {
+        "$oid": "645c7f52cbdfa5c2722fb401"
+      }
+    },
+    {
+      "value": "ra",
+      "label": "RapidApi",
+      "_id": {
+        "$oid": "645c7f52cbdfa5c2722fb402"
+      }
+    },
+    {
+      "value": "njs",
+      "label": "NodeJs",
+      "_id": {
+        "$oid": "645c7f52cbdfa5c2722fb403"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1683783506836"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1683783751623"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6471b62c0422c7244e00320f"
+  },
+  "tittle": "Tesla",
+  "banner": "http://res.cloudinary.com/dqsqjjlti/image/upload/v1685173803/ynety2aepdtpfwrrj8ei.png",
+  "preview_link": "https://prince0raj.github.io/tesla/",
+  "deploy_link": "https://github.com/prince0raj/weatherreport",
+  "desc": "Created Tesla's official website, showcasing their electric cars and sustainable vision. Designed a sleek interface for users to explore Model S, Model 3, Model X, and Model Y with interactive visuals and specifications. Emphasized renewable energy, charging infrastructure, and Tesla's unique vehicle design. Inspired visitors to adopt sustainable transportation.",
+  "skills": [
+    {
+      "value": "re",
+      "label": "React",
+      "_id": {
+        "$oid": "6471b62c0422c7244e003210"
+      }
+    },
+    {
+      "value": "res",
+      "label": "Responsive",
+      "_id": {
+        "$oid": "6471b62c0422c7244e003211"
+      }
+    },
+    {
+      "value": "an",
+      "label": "Animation",
+      "_id": {
+        "$oid": "6471b62c0422c7244e003212"
+      }
+    },
+    {
+      "value": "hc3",
+      "label": "HTML/CSS3",
+      "_id": {
+        "$oid": "6471b62c0422c7244e003213"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1685173804401"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1685173910944"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6471ba4f0422c7244e00339b"
+  },
+  "tittle": "Weather Report",
+  "banner": "http://res.cloudinary.com/dqsqjjlti/image/upload/v1685174863/g670zwvtgqvnuqqdvphc.jpg",
+  "preview_link": "https://weather-report-rtzr.onrender.com/",
+  "deploy_link": "https://github.com/prince0raj/weather",
+  "desc": "It’s allows users to access real-time weather data from various locations around the world. It contain user-friendly interface that allows users to search for weather information by location.",
+  "skills": [
+    {
+      "value": "ra",
+      "label": "RapidApi",
+      "_id": {
+        "$oid": "6471ba4f0422c7244e00339c"
+      }
+    },
+    {
+      "value": "njs",
+      "label": "NodeJs",
+      "_id": {
+        "$oid": "6471ba4f0422c7244e00339d"
+      }
+    },
+    {
+      "value": "ex",
+      "label": "Express",
+      "_id": {
+        "$oid": "6471ba4f0422c7244e00339e"
+      }
+    },
+    {
+      "value": "b",
+      "label": "Bootstrap",
+      "_id": {
+        "$oid": "6471ba4f0422c7244e00339f"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1685174863551"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1685174863551"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6471c3eba6efaf4c6e04c20c"
+  },
+  "tittle": "Stream show",
+  "banner": "http://res.cloudinary.com/dqsqjjlti/image/upload/v1685177322/clmu7mmlmk1wxqsybugt.jpg",
+  "preview_link": "NA",
+  "deploy_link": "https://github.com/prince0raj/stream",
+  "desc": "Developed a video streaming website with an intuitive interface for seamless user experience. Enabled users to stream high-quality videos, customize playlists, and discover new content. Implemented robust backend architecture for efficient content delivery and optimized performance.",
+  "skills": [
+    {
+      "value": "re",
+      "label": "React",
+      "_id": {
+        "$oid": "6471c3eba6efaf4c6e04c20d"
+      }
+    },
+    {
+      "value": "rx",
+      "label": "Redux",
+      "_id": {
+        "$oid": "6471c3eba6efaf4c6e04c20e"
+      }
+    },
+    {
+      "value": "ra",
+      "label": "RapidApi",
+      "_id": {
+        "$oid": "6471c3eba6efaf4c6e04c20f"
+      }
+    },
+    {
+      "value": "fb",
+      "label": "Flex-Box",
+      "_id": {
+        "$oid": "6471c3eba6efaf4c6e04c210"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1685177323434"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1685177323434"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64c73e301752b6a387ee1e9f"
+  },
+  "tittle": "DiscountVpn",
+  "banner": "http://res.cloudinary.com/dqsqjjlti/image/upload/v1690779183/bqixjt5lokfvughahzv4.jpg",
+  "preview_link": "https://discountvpn.com/",
+  "deploy_link": "https://discountvpn.com/",
+  "desc": "it is  a user-friendly website that ranks the best VPN (Virtual Private Network) services based on location coverage, device compatibility, and release year. This platform empowers users to make informed decisions and choose the most suitable VPN to enhance their online privacy and security effectively.",
+  "skills": [
+    {
+      "value": "rx",
+      "label": "Redux",
+      "_id": {
+        "$oid": "64c73e301752b6a387ee1ea0"
+      }
+    },
+    {
+      "value": "an",
+      "label": "Animation",
+      "_id": {
+        "$oid": "64c73e301752b6a387ee1ea1"
+      }
+    },
+    {
+      "value": "re",
+      "label": "React",
+      "_id": {
+        "$oid": "64c73e301752b6a387ee1ea2"
+      }
+    },
+    {
+      "value": "res",
+      "label": "Responsive",
+      "_id": {
+        "$oid": "64c73e301752b6a387ee1ea3"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1690779184285"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1690779184285"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "650b189c831852b9bc2a3fe4"
+  },
+  "tittle": "ShopNow",
+  "banner": "http://res.cloudinary.com/dqsqjjlti/image/upload/v1695226190/ncqx94ex9ypo7ftnmmii.png",
+  "preview_link": "https://github.com/prince0raj/ShopNow",
+  "deploy_link": "https://github.com/prince0raj/ShopNow",
+  "desc": "MERN Stack React Node MongoDB powered E-commerce App with Stripe and Credit Card Payment along with Admin Dashboard",
+  "skills": [
+    {
+      "value": "re",
+      "label": "React",
+      "_id": {
+        "$oid": "650b189c831852b9bc2a3fe5"
+      }
+    },
+    {
+      "value": "mdb",
+      "label": "MongoDb",
+      "_id": {
+        "$oid": "650b189c831852b9bc2a3fe6"
+      }
+    },
+    {
+      "value": "njs",
+      "label": "NodeJs",
+      "_id": {
+        "$oid": "650b189c831852b9bc2a3fe7"
+      }
+    },
+    {
+      "value": "b",
+      "label": "Bootstrap",
+      "_id": {
+        "$oid": "650b189c831852b9bc2a3fe8"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1695226012416"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1695226191701"
+    }
+  },
+  "__v": 0
+}]
