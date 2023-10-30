@@ -1266,8 +1266,12 @@ textarea {
     padding: 0;
   }
 }
-
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 1080px) {
+  .boxes:hover .hov {
+    height: 48%;
+  }
+}
+@media screen and (max-width: 769px) {
   /* contact */
   input,
   textarea {
@@ -1293,9 +1297,9 @@ textarea {
     text-align: center;
   }
 
-  .boxes:hover .hov {
-    height: 27vw;
-  }
+  /* .boxes:hover .hov {
+    height: 51%;
+  } */
 
   /* last work*/
   .boxes {
@@ -1310,6 +1314,9 @@ textarea {
 }
 
 @media screen and (max-width: 658px) {
+  .boxes:hover .hov {
+    height: 51%;
+  }
   .set_feature {
     justify-content: center;
   }
@@ -1492,7 +1499,7 @@ textarea {
     text-align: center;
   }
   .boxes:hover .hov {
-    height: 45vw;
+    height: 45%;
   }
   /* home */
   .cv p {

@@ -17,7 +17,7 @@ const Mywork = () => {
       }
     });
   }, []);
-  console.log(portdata);
+  // console.log(portdata);
   return (
     <>
       <Navportfolio />
@@ -40,24 +40,43 @@ const Mywork = () => {
           <div className={styles.works}>
             <div id="service_product">
               <div id="products">
-                {portdata?.map((val, ind) => {
-                  return (
-                    <Card
-                      key={ind}
-                      pro={val.banner}
-                      info={val.desc}
-                      text_link={
-                        val?.preview_link !== "NA" ? "Preview" : "Git-Code"
-                      }
-                      skill={val.skills}
-                      link={
-                        val?.preview_link !== "NA"
-                          ? val?.preview_link
-                          : val?.deploy_link
-                      }
-                    />
-                  );
-                })}
+                {portdata
+                  ? portdata.map((val, ind) => {
+                      return (
+                        <Card
+                          key={ind}
+                          pro={val.banner}
+                          info={val.desc}
+                          text_link={
+                            val?.preview_link !== "NA" ? "Preview" : "Git-Code"
+                          }
+                          skill={val.skills}
+                          link={
+                            val?.preview_link !== "NA"
+                              ? val?.preview_link
+                              : val?.deploy_link
+                          }
+                        />
+                      );
+                    })
+                  : data.map((val, ind) => {
+                      return (
+                        <Card
+                          key={ind}
+                          pro={val.banner}
+                          info={val.desc}
+                          text_link={
+                            val?.preview_link !== "NA" ? "Preview" : "Git-Code"
+                          }
+                          skill={val.skills}
+                          link={
+                            val?.preview_link !== "NA"
+                              ? val?.preview_link
+                              : val?.deploy_link
+                          }
+                        />
+                      );
+                    })}
               </div>
             </div>
           </div>
