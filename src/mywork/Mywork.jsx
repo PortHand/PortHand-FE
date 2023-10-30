@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./mywork.module.css";
 import data from "../Data";
+import datax from "../myworks.json";
 import Card from "../Card";
 import Navportfolio from "../Navportfolio";
 import { getworkethic } from "../API/apidataCall";
@@ -17,7 +18,7 @@ const Mywork = () => {
       }
     });
   }, []);
-  // console.log(portdata);
+  console.log(portdata);
   return (
     <>
       <Navportfolio />
@@ -59,7 +60,7 @@ const Mywork = () => {
                         />
                       );
                     })
-                  : data.map((val, ind) => {
+                  : datax.map((val, ind) => {
                       return (
                         <Card
                           key={ind}
