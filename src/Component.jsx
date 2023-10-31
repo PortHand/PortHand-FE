@@ -18,7 +18,7 @@ const Component = (prop) => {
       }
     });
   }, []);
-  console.log(data?.resume, "data check");
+  // console.log(data?.resume, "data check");
   return (
     <>
       <div id="home">

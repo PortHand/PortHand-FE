@@ -18,7 +18,10 @@ const Mywork = () => {
       }
     });
   }, []);
-  console.log(portdata);
+  datax.sort((a, b) => {
+    return b.createdAt.$date.$numberLong - a.createdAt.$date.$numberLong;
+  });
+  // console.log(datax);
   return (
     <>
       <Navportfolio />

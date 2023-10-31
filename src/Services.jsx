@@ -16,7 +16,9 @@ const Services = ({ ref4 }) => {
     });
   }, []);
   // console.log(portdata);
-
+  data.sort((a, b) => {
+    return b.createdAt.$date.$numberLong - a.createdAt.$date.$numberLong;
+  });
   return (
     <>
       <section id="portfolio" ref={ref4}>
